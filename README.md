@@ -180,7 +180,7 @@ jupyter>=1.0.0
 
 ---
 
-## 📅 Project Roadmap
+## 📅 Project Roadmap (30% Progress)
 
 - [x] Data collection & extraction from MMARAS Annual Reports (2015–2024)
 - [x] Dataset assembly — 12+ data tables compiled
