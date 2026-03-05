@@ -75,7 +75,8 @@ metro-manila-crash-analysis/
 │   └── corridor_analysis/      # Major road crash corridors
 │
 ├── 📁 reports/
-│   └── EDA_Report.pdf
+│   ├── EDA_Report.pdf
+│   └── figures/
 │
 ├── 📁 dashboard/
 │   └── (Interactive Plotly / Streamlit dashboard / Power BI)
