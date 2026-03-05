@@ -43,22 +43,24 @@ Road traffic crashes remain a leading cause of preventable death in Metro Manila
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️ Repository Structure (In Progress)
 
 ```
 metro-manila-crash-analysis/
 │
 ├── 📁 data/
 │   ├── raw/                    # Original MMARAS CSV/XLSX extracts
-│   │   ├── Monthly_casualties.csv
-│   │   ├── AADT_ML.csv
-│   │   ├── District_City_Statistics_ML.csv
-│   │   ├── Accident_District_ML.csv
-│   │   ├── Accident_age.csv
+│   │   ├── Age_Classification_Statistics_Raw.xlsx
+│   │   ├── AADT 2015-2024.csv
 │   │   ├── Collision_Type_Statistics_Raw.xlsx
+│   │   ├── District_City_Statistics_Raw.xlsx
+│   │   ├── Fatalities_By_Person_Type_Raw.xlsx
+│   │   ├── Injuries_By_Person_Type_Raw.csv
+│   │   ├── Monthly_Statistics_Raw 2015-2024.csv
 │   │   ├── Vehicle_Type_Statistics_Raw.xlsx
 │   │   └── Time_of_Day_Statistics_Raw.xlsx
 │   └── processed/              # Cleaned, transformed datasets
+│
 │
 ├── 📁 notebooks/
 │   ├── 01_EDA_Monthly_Casualties.ipynb
@@ -76,7 +78,7 @@ metro-manila-crash-analysis/
 │   └── EDA_Report.pdf
 │
 ├── 📁 dashboard/
-│   └── (Interactive Plotly / Streamlit dashboard)
+│   └── (Interactive Plotly / Streamlit dashboard / Power BI)
 │
 ├── requirements.txt
 └── README.md
