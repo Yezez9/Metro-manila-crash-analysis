@@ -113,11 +113,8 @@ metro-manila-crash-analysis/
 
 > ⚠️ *Full findings pending. These reflect initial exploratory analysis.*
 
-- **Peak crash window:** 3–6 PM for all crashes; 6 PM–6 AM for fatal crashes
 - **Motorcycles** are the deadliest vehicle type — involved in **38.2%** of all cases and **81.7%** of fatalities
-- **Side Swipe** is the most common collision type (29.8% of all crashes)
 - **Quezon City** alone accounts for **39.4%** of Metro Manila's total crashes
-- Human error is implicated in virtually all (99%) fatal crashes — infrastructure and behavioral interventions are critical
 
 ---
 
