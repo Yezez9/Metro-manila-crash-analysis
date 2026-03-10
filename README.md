@@ -180,13 +180,31 @@ jupyter>=1.0.0
 
 ---
 
-## 📅 Project Roadmap (30% Progress)
+## 📋 Data Gap Research
+
+This project has identified **4 critical data gaps** that need to be resolved before ML models can be fully trained. See the full research brief:
+
+📄 **[Data Gap Research Brief](reports/data_gap_research_brief.md)** — Detailed gap descriptions, search instructions, and workarounds  
+📊 **[Project Status Tracker](reports/project_status.md)** — Current progress across all phases
+
+| Priority | Gap | Status |
+|----------|-----|--------|
+| 🔴 CRITICAL | Causation/Contributing Factors | Searching |
+| 🟠 HIGH | Road-Segment Crash Frequency | Searching |
+| 🟠 HIGH | Gender-Disaggregated Data | Searching |
+| 🟡 MEDIUM | Supplementary/Verification | Searching |
+
+---
+
+## 📅 Project Roadmap (35% Progress)
 
 - [x] Data collection & extraction from MMARAS Annual Reports (2015–2024)
-- [x] Dataset assembly — 12+ data tables compiled
+- [x] Dataset assembly — 8 datasets collected and cleaned
 - [x] Initial preprocessing & feature engineering
-- [ ] Full EDA — all datasets
-- [ ] Time Series Forecasting model
+- [x] EDA — Monthly Casualties, District/City, Accident District, Age Demographics, AADT
+- [ ] EDA — Collision Type, Vehicle Type, Time of Day
+- [ ] Data gap resolution (Causation, Gender, Road-Segment data)
+- [ ] Time Series Forecasting model (Prophet / ARIMA)
 - [ ] Random Forest Hotspot Classifier
 - [ ] Logistic Regression Demographic Model
 - [ ] GIS hotspot maps
